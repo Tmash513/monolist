@@ -55,6 +55,6 @@ class User < ActiveRecord::Base
   end
 
   def want?(item)
-    wants.include?(item.id)
+    want_items.include?(item.id)
   end
 end
