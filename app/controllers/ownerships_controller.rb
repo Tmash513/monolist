@@ -51,4 +51,8 @@ class OwnershipsController < ApplicationController
       current_user.unwant(@item)
     end
   end
+  
+  def ranking
+    
+  end
 end
