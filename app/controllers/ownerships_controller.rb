@@ -52,7 +52,4 @@ class OwnershipsController < ApplicationController
     end
   end
   
-  def ranking
-    
-  end
 end
